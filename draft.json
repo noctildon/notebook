@@ -1,0 +1,60 @@
+{
+  "schools": [{
+    "schoolName": "U Penn",
+    "programName": "Astrophysics",
+    "applicationWebsite": "url..",
+    "deadline": "12/5",
+    "letterNumber": 3,
+    "applicationFee": 100,
+    "submit": false,
+    "paid": true,
+    "transcript": {
+      "requiredPaper": false,
+      "minGPA": 3.0,
+      "sent": true,
+      "received": false
+    },
+    "CV": {
+      "required": true,
+      "limitations": "one page"
+    },
+    "SOP": {
+      "required": true,
+      "limitations": "1000 word max"
+    },
+    "personalStatement": {
+      "required": false,
+      "limitations": "1000 word max"
+    },
+    "TOEFL": {
+      "required": true,
+      "min": {
+        "reading": 23,
+        "listening": 23,
+        "writing": 20,
+        "speaking": 22,
+        "total": 100
+      },
+      "scoreReport": true,
+      "scoreReceived": true
+    },
+    "GRE": {
+      "required": true,
+      "min": {
+        "verbal": 150,
+        "quantitative": 150,
+        "AW": 3.0
+      },
+      "scoreReport": true,
+      "scoreReceived": false
+    },
+    "sGRE": {
+      "required": false,
+      "subject": "Physics",
+      "min": 800,
+      "scoreReport": false,
+      "scoreReceived": false
+    },
+    "other": ""
+  }]
+}

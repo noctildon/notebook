@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- bootstrap -->
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="css/lib/bootstrap-datetimepicker.min.css">
+  <link rel="stylesheet" href="css/lib/bootstrap.min.css">
+
+  <!-- Font Awesome (icon) -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  </tr>
+
+  <link rel="stylesheet" href="css/create.css">
+  <title>Create</title>
+</head>
+
+<body>
+  <form>
+    <!-- college -->
+    <div class="form-group">
+      <label>College</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="College name">
+    </div>
+
+    <!-- program -->
+    <div class="form-group">
+      <label>Program</label>
+      <input class="form-control" placeholder="Program name">
+    </div>
+
+    <!-- degree -->
+    <div class="form-group">
+      <label>Degree</label>
+      <select class="form-control">
+        <option>BA</option>
+        <option>MS</option>
+        <option>PhD</option>
+      </select>
+    </div>
+
+    <!-- date picker -->
+    <div class="form-group">
+      <label>Deadline</label>
+      <div class="input-group date form_date " data-date-format="MM dd yyyy" data-link-field="dtp_input2" data-link-format="yyyy-mm-dd">
+        <input class="form-control" size="16" type="text" value="" readonly>
+        <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>
+        <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
+      </div>
+    </div>
+
+
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    </div>
+    <br>
+    <button type="submit" class="btn btn-primary">Create</button>
+  </form>
+
+
+  <script src="js/lib/jquery-3.3.1.min.js"></script>
+  <script src="js/lib/bootstrap.min.js"></script>
+  <script src="js/lib/bootstrap-datetimepicker.min.js"></script>
+  <script src="js/create.js"></script>
+</body>
+
+</html>

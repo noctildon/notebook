@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/lib/bootstrap.min.css">
+
+  <!-- Font Awesome (icon) -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/index.css">
+  <title>Start Your Application</title>
+</head>
+
+<body>
+  <button type="button" class="btn btn-primary add-school">Add School</button>
+  <button type="button" class="btn btn-primary export">Export</button>
+
+
+  <div class='school-table'>
+    <table class="table table-info">
+      <thead>
+        <tr>
+          <th scope="col">College &nbsp<i class="fa fa-sort  btn btn-light"></i></th>
+          <th scope="col">Program &nbsp<i class="fa fa-sort btn btn-light"></i></th>
+          <th scope="col">Degree &nbsp<i class="fa fa-sort btn btn-light"></i></th>
+          <th scope="col">Status &nbsp<i class="fa fa-sort btn btn-light"></i></th>
+          <th scope="col">Deadline &nbsp<i class="fa fa-sort btn btn-light"></i></th>
+          <th scope="col">Remove</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="school table-primary">
+          <th scope="row">Stanford</th>
+          <td>Business</td>
+          <td>MS</td>
+          <td>Submitted</td>
+          <td>12/15</td>
+          <td>
+            <i class="fa fa-trash"></i>
+          </td>
+        </tr>
+
+        <tr class="school table-warning">
+          <th scope="row">CMU</th>
+          <td>CS</td>
+          <td>MS</td>
+          <td>Incomplete</td>
+          <td>12/1</td>
+          <td>
+            <i class="fa fa-trash"></i>
+          </td>
+        </tr>
+
+        <tr class="school table-success">
+          <th scope="row">UPenn</th>
+          <td>MBA</td>
+          <td>MS</td>
+          <td>Admitted</td>
+          <td>12/5</td>
+          <td>
+            <i class="fa fa-trash"></i>
+          </td>
+        </tr>
+
+        <tr class="school table-dark">
+          <th scope="row">Harvard</th>
+          <td>EECS</td>
+          <td>PhD</td>
+          <td>Rejected</td>
+          <td>12/5</td>
+          <td>
+            <i class="fa fa-trash"></i>
+          </td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+  <script src="js/lib/jquery-3.3.1.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
